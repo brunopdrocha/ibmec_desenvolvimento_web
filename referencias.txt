@@ -1,0 +1,40 @@
+
+Python
+
+    Principal função da da referencia em Python e 
+    conter uma fonte bara busca de informação da
+    linguagem
+
+links:
+    br
+    https://docs.python.org/pt-br/3/reference/index.html
+
+    en
+    https://docs.python.org/3/reference/index.html
+
+Git
+
+    Principal função da da referencia em Git e conter uma
+    fonte bara busca de informação da linguagem
+
+link:
+    https://git-scm.com/docs
+
+
+Vscode
+
+    Principal função da da referencia em Vscode e 
+    conter uma fonte bara busca de informação da 
+    configuração da IDE 
+
+link:
+    https://code.visualstudio.com/docs/editor/variables-reference
+
+Opera gx
+  
+    Principal função da da referencia em Opera GX e 
+    conter uma fonte bara busca de informação da 
+    formatação do Browser
+
+link:
+    https://dev.opera.com/tags/reference/
