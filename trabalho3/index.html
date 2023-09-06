@@ -2,49 +2,88 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    
-    <title>Exercicio 3</title>
+    <title>Exercício 3</title>
 </head>
 <body>
-    <!--Colocando um link clicabel-->
+    <!-- Colocando um link clicável -->
     <h1>Link externo</h1>
     <p>
         <a href="https://github.com/ibmec-tec/des-web-1-2023-2/blob/main/web-design3.pdf">Github Mangeli</a>
-        <a href="#Midia">Midias</a>
-        <id = Midia></id>
+        <a href="#Midia">Mídias</a>
     </p>
 
     <p>
-        <!--Letra em negrito-->
+        <!-- Texto em negrito -->
         <h1>Letra em negrito</h1>
         <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nesciunt voluptate sint iste et quia doloremque, quo officiis nulla quis dolorum molestias adipisci earum! Nihil ratione quod porro ut harum.</strong>
     </p>
 
     <p>
-        <!--Vem em escrita italica-->
-        <h1>Letra em enfase</h1>
+        <!-- Texto em itálico -->
+        <h1>Letra em ênfase</h1>
         <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas adipisci aliquam sequi, cumque delectus aut, sapiente, temporibus id obcaecati alias corrupti perferendis quae reiciendis assumenda consequatur a odit error.</em>
     </p>
 
     <p>
         <h1>Texto tachado</h1>
-        <!--Textos que foi removido do site(tachado)-->
+        <!-- Texto tachado -->
         <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis eaque dolorum laborum consequatur quod at autem, suscipit voluptas hic ullam quisquam, ad a officiis animi reprehenderit, accusamus incidunt nemo!</del>
     </p>
 
     <p>
-        <!--Texto sublinahado-->
+        <!-- Texto sublinhado -->
         <h1>Texto Sublinhado</h1>
         <ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis accusamus quasi, incidunt, magnam repellat minus, quisquam odio animi molestiae labore tenetur neque? Voluptatem, quae esse? Nesciunt consequatur officia dignissimos culpa?</ins>
     </p>
-        <!--Elementos de imagem / audio / video /-->
-        <h1>Elementos de imagem / audio / video </h1>
-        <img src"https://i.ytimg.com/vi/TML0FOh6hLs/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGEgZShbMA8=&rs=AOn4CLAigTKWCUXDQ_O5jzBnth9FPO-v6g"
-        alt="Rodrigo Goes">
-        <audio controls scr ="audio.mp3"><a hrf="audio.mp3"></a></audio>
-        <video controls scr ="video.mp3>"<a hrf="video.mp3"></a></video>
+
+    <!-- Elementos de imagem / áudio / vídeo -->
+    <h1>Elementos de imagem / áudio / vídeo</h1>
+    <img src="https://i.ytimg.com/vi/TML0FOh6hLs/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGEgZShbMA8=&rs=AOn4CLAigTKWCUXDQ_O5jzBnth9FPO-v6g" alt="Rodrigo Goes">
+    <audio controls src="audio.mp3"></audio>
+    <video controls src="video.mp4"></video>
+
     <p>
-       
+        <h1>Inputs em HTML</h1>
+
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required minlength="4" maxlength="10" size="12">
+        </div>
+        
+        <div>
+            Cor <input type="color" id="corpo" name="corpo">
+        </div>
+
+        <div>
+            <label for="data_nascimento">Data de Nascimento</label>
+            <input type="date" id="data_nascimento" name="data_nascimento">
+        </div>
+
+        <div>
+            Masculino <input class="Genero" type="checkbox" value="Masculino"> 
+            Feminino <input class="Genero" type="checkbox" value="Feminino">
+            Outros <input class="Genero" type="checkbox" value="Outros">
+        </div>
+
+        <fieldset>
+            <legend>Selecione o Gênero:</legend>
+            <div>
+                <input type="radio" id="genero_masculino" name="genero" value="Masculino" checked>
+                <label for="genero_masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" id="genero_feminino" name="genero" value="Feminino">
+                <label for="genero_feminino">Feminino</label>
+            </div>
+            <div>
+                <input type="radio" id="genero_outros" name="genero" value="Outros">
+                <label for="genero_outros">Outros</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <input type="submit">
+        </div>
     </p>
 </body>
 </html>
