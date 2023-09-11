@@ -1,0 +1,19 @@
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+margin-bottom: 0;
+}
+
+#genero-2{
+  min-height: 2em;
+  background-color: rgb(62, 0, 247);
+  
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#genero-1{
+ width: 50%; 
+}

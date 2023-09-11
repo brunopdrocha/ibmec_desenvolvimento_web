@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="estilo/style.css" rel="stylesheet"> <!-- Corrigido o "<" extra aqui -->
+    <meta charset="UTF-8">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <form method="get" action="">
+    <!-- Colocando um link clicável -->
+    <h1>Link externo</h1>
+    <p>
+        <a href="https://github.com/ibmec-tec/des-web-1-2023-2/blob/main/web-design3.pdf">Github Mangeli</a>
+        <a href="#Midia">Mídias</a>
+    </p>
+
+    <p>
+        <!-- Texto em negrito -->
+        <h1>Letra em negrito</h1>
+        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nesciunt voluptate sint iste et quia doloremque, quo officiis nulla quis dolorum molestias adipisci earum! Nihil ratione quod porro ut harum.</strong>
+    </p>
+
+    <p>
+        <!-- Texto em itálico -->
+        <h1>Letra em ênfase</h1>
+        <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quas adipisci aliquam sequi, cumque delectus aut, sapiente, temporibus id obcaecati alias corrupti perferendis quae reiciendis assumenda consequatur a odit error.</em>
+    </p>
+
+    <p>
+        <h1>Texto tachado</h1>
+        <!-- Texto tachado -->
+        <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis eaque dolorum laborum consequatur quod at autem, suscipit voluptas hic ullam quisquam, ad a officiis animi reprehenderit, accusamus incidunt nemo!</del>
+    </p>
+
+    <p>
+        <!-- Texto sublinhado -->
+        <h1>Texto Sublinhado</h1>
+        <ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis accusamus quasi, incidunt, magnam repellat minus, quisquam odio animi molestiae labore tenetur neque? Voluptatem, quae esse? Nesciunt consequatur officia dignissimos culpa?</ins>
+    </p>
+
+    <!-- Elementos de imagem / áudio / vídeo -->
+    <h1>Elementos de imagem / áudio / vídeo</h1>
+    <img src="https://i.ytimg.com/vi/TML0FOh6hLs/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGEgZShbMA8=&rs=AOn4CLAigTKWCUXDQ_O5jzBnth9FPO-v6g" alt="Rodrigo Goes">
+    <audio controls src="audio.mp3"></audio>
+    <video controls src="video.mp4"></video>
+
+    <p>
+        <h1>Inputs em HTML</h1>
+
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required minlength="4" maxlength="10" size="12">
+        </div>
+        
+        <div>
+            Cor <input type="color" id="corpo" name="corpo">
+        </div>
+
+        <div>
+            <label for="data_nascimento">Data de Nascimento</label>
+            <input type="date" id="data_nascimento" name="data_nascimento">
+        </div>
+
+        <div id="genero-1">
+            Masculino <input class="Genero" type="checkbox" value="Masculino"> 
+            Feminino <input class="Genero" type="checkbox" value="Feminino">
+            Outros <input class="Genero" type="checkbox" value="Outros">
+        </div>
+
+      
+            
+        <div id ="genero-2">
+                <legend>Selecione o Gênero:</legend>
+                <input type="radio" id="genero_masculino" name="genero" value="Masculino" checked>
+                <label for="genero_masculino">Masculino</label>
+            
+            
+                <input type="radio" id="genero_feminino" name="genero" value="Feminino">
+                <label for="genero_feminino">Feminino</label>
+            
+        
+                <input type="radio" id="genero_outros" name="genero" value="Outros">
+                <label for="genero_outros">Outros</label>
+                
+        </div>
+        <input type="submit">          
+    </p>
+</body>
+</html>
